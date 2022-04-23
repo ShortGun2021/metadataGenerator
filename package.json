@@ -1,7 +1,7 @@
 {
-  "name": "hashlips_art_engine",
+  "name": "Metadata_engine",
   "version": "1.0.2",
-  "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
+  "description": "Metadata Art Engine is a tool used to create IPFS System compatible Metadata.",
   "main": "index.js",
   "bin": "index.js",
   "pkg": {

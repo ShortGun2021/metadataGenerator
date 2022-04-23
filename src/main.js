@@ -24,7 +24,7 @@ var dnaList = [];
 
 const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
-    fs.rmdirSync(buildDir, { recursive: true });
+    fs.rmSync(buildDir, { recursive: true });
   }
   fs.mkdirSync(buildDir);
 };
